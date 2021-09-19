@@ -1,0 +1,14 @@
+name: umka
+description: grpc example
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  grpc: ^3.0.0
+  pedantic: ^1.11.1
+  umka_proto:
+    git: git@github.com:Umka-org/umka_proto.git
